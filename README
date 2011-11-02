@@ -1,0 +1,30 @@
+Jogo Senha
+
+- Um Jogo que gera uma senha de 04 posicoes com os algarismos 1, 2, 3, 4
+- O Jogo gera a senha e eh capaz de verificar uma contra-senha
+____________________________________________________________________________________
+
+Uma contra-senha eh avaliada atraves dos seguintes sinais e regras:
++ : um sinal de positivo eh apresentado para cada valor correto na posicao correta
+/ : um unico sinal de barra eh apresentado para cada valor correto na posicao errada
+- : um sinal de negativo eh apresentado para os demais valores
+
+Prioridade dos sinais: + > / > -
+____________________________________________________________________________________
+
+Exemplos de avaliacao para a Senha: 1232
+
+1232 Parabens, fulano voce quebrou a senha!
+4444 ----
+2321 ////
+1432 +++-
+4232 +++-
+1322 ++//
+1235 Caracter Invalido
+____________________________________________________________________________________
+
+- O jogo deve ser capaz de guardar o nome do jogador ao iniciar o jogo
+- O numero maximo de tentativas eh 10
+- Ao final de cada partida, o jogo deve perguntar ao jogador se ele gostaria de jogar novamente
+- Durante uma partida se o jogador digitar 0000, a partida eh encerrada
+- Caso o jogador nao queira jogar de novo, o jogo deve exibir a mensagem Ate a proxima!
